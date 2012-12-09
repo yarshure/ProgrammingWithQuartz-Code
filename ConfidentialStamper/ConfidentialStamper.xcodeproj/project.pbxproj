@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF9F95206B6CFC500F55B63 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF9F95106B6CFC500F55B63 /* ApplicationServices.framework */; };
+		2DF9F96706B6D0F000F55B63 /* confidential.pdf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DF9F96606B6D0F000F55B63 /* confidential.pdf */; };
+		2DF9F96B06B6D12800F55B63 /* multipagedocumenttostamp.pdf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DF9F96A06B6D12800F55B63 /* multipagedocumenttostamp.pdf */; };
+		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			files = (
+				2DF9F96706B6D0F000F55B63 /* confidential.pdf in CopyFiles */,
+				2DF9F96B06B6D12800F55B63 /* multipagedocumenttostamp.pdf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2DF9F95106B6CFC500F55B63 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		2DF9F96606B6D0F000F55B63 /* confidential.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = confidential.pdf; sourceTree = "<group>"; };
+		2DF9F96A06B6D12800F55B63 /* multipagedocumenttostamp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = multipagedocumenttostamp.pdf; sourceTree = "<group>"; };
+		8DD76FB20486AB0100D96B5E /* ConfidentialStamper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConfidentialStamper; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF9F95206B6CFC500F55B63 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* ConfidentialStamper */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9F96106B6D0C200F55B63 /* TestFiles */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				2DF9F94806B6CF6500F55B63 /* Frameworks */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = ConfidentialStamper;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7796FE84155DC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* ConfidentialStamper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF9F94806B6CF6500F55B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9F95106B6CFC500F55B63 /* ApplicationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DF9F96106B6D0C200F55B63 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9F96A06B6D12800F55B63 /* multipagedocumenttostamp.pdf */,
+				2DF9F96606B6D0F000F55B63 /* confidential.pdf */,
+			);
+			name = TestFiles;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* ConfidentialStamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4F4EB808E0C953002C8F59 /* Build configuration list for PBXNativeTarget "ConfidentialStamper" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfidentialStamper;
+			productInstallPath = "$(HOME)/bin";
+			productName = ConfidentialStamper;
+			productReference = 8DD76FB20486AB0100D96B5E /* ConfidentialStamper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2D4F4EBC08E0C953002C8F59 /* Build configuration list for PBXProject "ConfidentialStamper" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ConfidentialStamper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* ConfidentialStamper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D4F4EB908E0C953002C8F59 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Volumes/Portable/QuartzBook/prog_w_quartz/SampleCode/ConfidentialStamper;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = ConfidentialStamper;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2D4F4EBA08E0C953002C8F59 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /Volumes/Portable/QuartzBook/prog_w_quartz/SampleCode/ConfidentialStamper;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = ConfidentialStamper;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2D4F4EBB08E0C953002C8F59 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Volumes/Portable/QuartzBook/prog_w_quartz/SampleCode/ConfidentialStamper;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = ConfidentialStamper;
+			};
+			name = Default;
+		};
+		2D4F4EBD08E0C953002C8F59 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2D4F4EBE08E0C953002C8F59 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2D4F4EBF08E0C953002C8F59 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4F4EB808E0C953002C8F59 /* Build configuration list for PBXNativeTarget "ConfidentialStamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4F4EB908E0C953002C8F59 /* Development */,
+				2D4F4EBA08E0C953002C8F59 /* Deployment */,
+				2D4F4EBB08E0C953002C8F59 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2D4F4EBC08E0C953002C8F59 /* Build configuration list for PBXProject "ConfidentialStamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4F4EBD08E0C953002C8F59 /* Development */,
+				2D4F4EBE08E0C953002C8F59 /* Deployment */,
+				2D4F4EBF08E0C953002C8F59 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

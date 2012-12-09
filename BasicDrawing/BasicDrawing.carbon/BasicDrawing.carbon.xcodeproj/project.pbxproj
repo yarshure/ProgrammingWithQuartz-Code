@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D1CB7C008CE515B00BAE1AD /* imageturkey.eps in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CB7BF08CE515B00BAE1AD /* imageturkey.eps */; };
+		2D2C9F9E081EBA8F0011DB3E /* blendmode.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2D2C9F9D081EBA8F0011DB3E /* blendmode.pdf */; };
+		2D64895A07130999008AA774 /* FrameworkTextDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D64895907130999008AA774 /* FrameworkTextDrawing.c */; };
+		2D66F44406F101480059510A /* FrameworkUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D66F43B06F101480059510A /* FrameworkUtilities.c */; };
+		2D66F44806F101480059510A /* NavServicesHandling.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D66F43F06F101480059510A /* NavServicesHandling.c */; };
+		2D76F3A006F25460000690D4 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D76F39F06F25460000690D4 /* QuickTime.framework */; };
+		2D90781B06F11754002BEABF /* DoPrinting.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D90781A06F11754002BEABF /* DoPrinting.c */; };
+		2DC32CCD0806F36F0062A441 /* 400x259x8.bw.raw in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CC30806F36F0062A441 /* 400x259x8.bw.raw */; };
+		2DC32CCE0806F36F0062A441 /* image-400x300x24.raw in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CC40806F36F0062A441 /* image-400x300x24.raw */; };
+		2DC32CD00806F36F0062A441 /* Kitty.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CC60806F36F0062A441 /* Kitty.pdf */; };
+		2DC32CD10806F36F0062A441 /* LyingOnDeckNoProfile.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CC70806F36F0062A441 /* LyingOnDeckNoProfile.JPG */; };
+		2DC32CD30806F36F0062A441 /* otherimage-400x300x24.raw in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CC90806F36F0062A441 /* otherimage-400x300x24.raw */; };
+		2DC32CD40806F36F0062A441 /* Poot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CCA0806F36F0062A441 /* Poot.jpg */; };
+		2DC32CD50806F36F0062A441 /* ptlobos.tif in Resources */ = {isa = PBXBuildFile; fileRef = 2DC32CCB0806F36F0062A441 /* ptlobos.tif */; };
+		2DC32D070806F3D70062A441 /* BitmapContext.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CE90806F3D70062A441 /* BitmapContext.c */; };
+		2DC32D080806F3D70062A441 /* ColorAndGState.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CEB0806F3D70062A441 /* ColorAndGState.c */; };
+		2DC32D090806F3D70062A441 /* CoordinateSystem.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CED0806F3D70062A441 /* CoordinateSystem.c */; };
+		2DC32D0A0806F3D70062A441 /* DataProvidersAndConsumers.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CEF0806F3D70062A441 /* DataProvidersAndConsumers.c */; };
+		2DC32D0B0806F3D70062A441 /* DrawingBasics.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CF10806F3D70062A441 /* DrawingBasics.c */; };
+		2DC32D0C0806F3D70062A441 /* EPSPrinting.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CF30806F3D70062A441 /* EPSPrinting.c */; };
+		2DC32D0D0806F3D70062A441 /* ImageMasking.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CF50806F3D70062A441 /* ImageMasking.c */; };
+		2DC32D0E0806F3D70062A441 /* Images.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CF70806F3D70062A441 /* Images.c */; };
+		2DC32D0F0806F3D70062A441 /* PathDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CF90806F3D70062A441 /* PathDrawing.c */; };
+		2DC32D100806F3D70062A441 /* PatternDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CFB0806F3D70062A441 /* PatternDrawing.c */; };
+		2DC32D110806F3D70062A441 /* PDFHandling.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CFD0806F3D70062A441 /* PDFHandling.c */; };
+		2DC32D120806F3D70062A441 /* QuartzTextDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32CFF0806F3D70062A441 /* QuartzTextDrawing.c */; };
+		2DC32D130806F3D70062A441 /* Shadings.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32D010806F3D70062A441 /* Shadings.c */; };
+		2DC32D140806F3D70062A441 /* ShadowsAndTransparencyLayers.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32D030806F3D70062A441 /* ShadowsAndTransparencyLayers.c */; };
+		2DC32D150806F3D70062A441 /* Utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32D050806F3D70062A441 /* Utilities.c */; };
+		2DC32D360806FDFC0062A441 /* AppDrawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 2DC32D340806FDFC0062A441 /* AppDrawing.c */; settings = {COMPILER_FLAGS = "-DCARBON_SAMPLE=1"; }; };
+		2DF0A6E506F216530081C51B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DF0A6E306F216530081C51B /* Localizable.strings */; };
+		8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		8D0C4E8E0486CD37000505A6 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 02345980000FD03B11CA0E72 /* main.nib */; };
+		8D0C4E900486CD37000505A6 /* UIHandling.c in Sources */ = {isa = PBXBuildFile; fileRef = 20286C2BFDCF999611CA2CEA /* UIHandling.c */; settings = {ATTRIBUTES = (); }; };
+		8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1870340FFE93FCAF11CA0CD7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
+		20286C2BFDCF999611CA2CEA /* UIHandling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UIHandling.c; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2D1CB7BF08CE515B00BAE1AD /* imageturkey.eps */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = imageturkey.eps; sourceTree = "<group>"; };
+		2D2C9F9D081EBA8F0011DB3E /* blendmode.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = blendmode.pdf; sourceTree = "<group>"; };
+		2D64893807130492008AA774 /* FrameworkUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FrameworkUtilities.h; sourceTree = "<group>"; };
+		2D6489560713098E008AA774 /* FrameworkTextDrawing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FrameworkTextDrawing.h; sourceTree = "<group>"; };
+		2D64895907130999008AA774 /* FrameworkTextDrawing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = FrameworkTextDrawing.c; sourceTree = "<group>"; };
+		2D66F43B06F101480059510A /* FrameworkUtilities.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = FrameworkUtilities.c; sourceTree = "<group>"; };
+		2D66F43F06F101480059510A /* NavServicesHandling.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = NavServicesHandling.c; sourceTree = "<group>"; };
+		2D66F44006F101480059510A /* NavServicesHandling.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NavServicesHandling.h; sourceTree = "<group>"; };
+		2D66F44106F101480059510A /* UIHandling.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UIHandling.h; sourceTree = "<group>"; };
+		2D76F39F06F25460000690D4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		2D90781A06F11754002BEABF /* DoPrinting.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = DoPrinting.c; sourceTree = "<group>"; };
+		2D90781E06F1176C002BEABF /* DoPrinting.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DoPrinting.h; sourceTree = "<group>"; };
+		2DC32CC30806F36F0062A441 /* 400x259x8.bw.raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = 400x259x8.bw.raw; sourceTree = "<group>"; };
+		2DC32CC40806F36F0062A441 /* image-400x300x24.raw */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "image-400x300x24.raw"; sourceTree = "<group>"; };
+		2DC32CC60806F36F0062A441 /* Kitty.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Kitty.pdf; sourceTree = "<group>"; };
+		2DC32CC70806F36F0062A441 /* LyingOnDeckNoProfile.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LyingOnDeckNoProfile.JPG; sourceTree = "<group>"; };
+		2DC32CC90806F36F0062A441 /* otherimage-400x300x24.raw */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "otherimage-400x300x24.raw"; sourceTree = "<group>"; };
+		2DC32CCA0806F36F0062A441 /* Poot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Poot.jpg; sourceTree = "<group>"; };
+		2DC32CCB0806F36F0062A441 /* ptlobos.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ptlobos.tif; sourceTree = "<group>"; };
+		2DC32CE90806F3D70062A441 /* BitmapContext.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = BitmapContext.c; sourceTree = "<group>"; };
+		2DC32CEA0806F3D70062A441 /* BitmapContext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = BitmapContext.h; sourceTree = "<group>"; };
+		2DC32CEB0806F3D70062A441 /* ColorAndGState.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ColorAndGState.c; sourceTree = "<group>"; };
+		2DC32CEC0806F3D70062A441 /* ColorAndGState.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ColorAndGState.h; sourceTree = "<group>"; };
+		2DC32CED0806F3D70062A441 /* CoordinateSystem.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = CoordinateSystem.c; sourceTree = "<group>"; };
+		2DC32CEE0806F3D70062A441 /* CoordinateSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CoordinateSystem.h; sourceTree = "<group>"; };
+		2DC32CEF0806F3D70062A441 /* DataProvidersAndConsumers.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = DataProvidersAndConsumers.c; sourceTree = "<group>"; };
+		2DC32CF00806F3D70062A441 /* DataProvidersAndConsumers.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DataProvidersAndConsumers.h; sourceTree = "<group>"; };
+		2DC32CF10806F3D70062A441 /* DrawingBasics.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = DrawingBasics.c; sourceTree = "<group>"; };
+		2DC32CF20806F3D70062A441 /* DrawingBasics.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DrawingBasics.h; sourceTree = "<group>"; };
+		2DC32CF30806F3D70062A441 /* EPSPrinting.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = EPSPrinting.c; sourceTree = "<group>"; };
+		2DC32CF40806F3D70062A441 /* EPSPrinting.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EPSPrinting.h; sourceTree = "<group>"; };
+		2DC32CF50806F3D70062A441 /* ImageMasking.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ImageMasking.c; sourceTree = "<group>"; };
+		2DC32CF60806F3D70062A441 /* ImageMasking.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ImageMasking.h; sourceTree = "<group>"; };
+		2DC32CF70806F3D70062A441 /* Images.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Images.c; sourceTree = "<group>"; };
+		2DC32CF80806F3D70062A441 /* Images.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
+		2DC32CF90806F3D70062A441 /* PathDrawing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = PathDrawing.c; sourceTree = "<group>"; };
+		2DC32CFA0806F3D70062A441 /* PathDrawing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PathDrawing.h; sourceTree = "<group>"; };
+		2DC32CFB0806F3D70062A441 /* PatternDrawing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = PatternDrawing.c; sourceTree = "<group>"; };
+		2DC32CFC0806F3D70062A441 /* PatternDrawing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PatternDrawing.h; sourceTree = "<group>"; };
+		2DC32CFD0806F3D70062A441 /* PDFHandling.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = PDFHandling.c; sourceTree = "<group>"; };
+		2DC32CFE0806F3D70062A441 /* PDFHandling.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PDFHandling.h; sourceTree = "<group>"; };
+		2DC32CFF0806F3D70062A441 /* QuartzTextDrawing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = QuartzTextDrawing.c; sourceTree = "<group>"; };
+		2DC32D000806F3D70062A441 /* QuartzTextDrawing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QuartzTextDrawing.h; sourceTree = "<group>"; };
+		2DC32D010806F3D70062A441 /* Shadings.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Shadings.c; sourceTree = "<group>"; };
+		2DC32D020806F3D70062A441 /* Shadings.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Shadings.h; sourceTree = "<group>"; };
+		2DC32D030806F3D70062A441 /* ShadowsAndTransparencyLayers.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ShadowsAndTransparencyLayers.c; sourceTree = "<group>"; };
+		2DC32D040806F3D70062A441 /* ShadowsAndTransparencyLayers.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ShadowsAndTransparencyLayers.h; sourceTree = "<group>"; };
+		2DC32D050806F3D70062A441 /* Utilities.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = Utilities.c; sourceTree = "<group>"; };
+		2DC32D060806F3D70062A441 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		2DC32D340806FDFC0062A441 /* AppDrawing.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = AppDrawing.c; sourceTree = "<group>"; };
+		2DC32D350806FDFC0062A441 /* AppDrawing.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppDrawing.h; sourceTree = "<group>"; };
+		2DF0A6E406F216530081C51B /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		32DBCF6D0370B57F00C91783 /* BasicDrawing_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDrawing_Prefix.pch; sourceTree = "<group>"; };
+		4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D0C4E970486CD37000505A6 /* BasicDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E920486CD37000505A6 /* Carbon.framework in Frameworks */,
+				2D76F3A006F25460000690D4 /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C4E970486CD37000505A6 /* BasicDrawing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* BasicDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				2DC32CE80806F3D70062A441 /* CommonCode */,
+				20286C2AFDCF999611CA2CEA /* CarbonSpecific */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			name = BasicDrawing;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* CarbonSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				2D66F43B06F101480059510A /* FrameworkUtilities.c */,
+				2D64893807130492008AA774 /* FrameworkUtilities.h */,
+				2D90781A06F11754002BEABF /* DoPrinting.c */,
+				2D90781E06F1176C002BEABF /* DoPrinting.h */,
+				2D64895907130999008AA774 /* FrameworkTextDrawing.c */,
+				2D6489560713098E008AA774 /* FrameworkTextDrawing.h */,
+				2D66F43F06F101480059510A /* NavServicesHandling.c */,
+				2D66F44006F101480059510A /* NavServicesHandling.h */,
+				20286C2BFDCF999611CA2CEA /* UIHandling.c */,
+				2D66F44106F101480059510A /* UIHandling.h */,
+				32DBCF6D0370B57F00C91783 /* BasicDrawing_Prefix.pch */,
+			);
+			name = CarbonSpecific;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DC32CC20806F36F0062A441 /* GraphicsFiles */,
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+				2DF0A6E306F216530081C51B /* Localizable.strings */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+				02345980000FD03B11CA0E72 /* main.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */,
+				4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */,
+				2D76F39F06F25460000690D4 /* QuickTime.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		2DC32CC20806F36F0062A441 /* GraphicsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2DC32CC30806F36F0062A441 /* 400x259x8.bw.raw */,
+				2D2C9F9D081EBA8F0011DB3E /* blendmode.pdf */,
+				2DC32CC40806F36F0062A441 /* image-400x300x24.raw */,
+				2D1CB7BF08CE515B00BAE1AD /* imageturkey.eps */,
+				2DC32CC60806F36F0062A441 /* Kitty.pdf */,
+				2DC32CC70806F36F0062A441 /* LyingOnDeckNoProfile.JPG */,
+				2DC32CC90806F36F0062A441 /* otherimage-400x300x24.raw */,
+				2DC32CCA0806F36F0062A441 /* Poot.jpg */,
+				2DC32CCB0806F36F0062A441 /* ptlobos.tif */,
+			);
+			name = GraphicsFiles;
+			path = ../GraphicsFiles;
+			sourceTree = SOURCE_ROOT;
+		};
+		2DC32CE80806F3D70062A441 /* CommonCode */ = {
+			isa = PBXGroup;
+			children = (
+				2DC32D340806FDFC0062A441 /* AppDrawing.c */,
+				2DC32D350806FDFC0062A441 /* AppDrawing.h */,
+				2DC32CE90806F3D70062A441 /* BitmapContext.c */,
+				2DC32CEA0806F3D70062A441 /* BitmapContext.h */,
+				2DC32CEB0806F3D70062A441 /* ColorAndGState.c */,
+				2DC32CEC0806F3D70062A441 /* ColorAndGState.h */,
+				2DC32CED0806F3D70062A441 /* CoordinateSystem.c */,
+				2DC32CEE0806F3D70062A441 /* CoordinateSystem.h */,
+				2DC32CEF0806F3D70062A441 /* DataProvidersAndConsumers.c */,
+				2DC32CF00806F3D70062A441 /* DataProvidersAndConsumers.h */,
+				2DC32CF10806F3D70062A441 /* DrawingBasics.c */,
+				2DC32CF20806F3D70062A441 /* DrawingBasics.h */,
+				2DC32CF30806F3D70062A441 /* EPSPrinting.c */,
+				2DC32CF40806F3D70062A441 /* EPSPrinting.h */,
+				2DC32CF50806F3D70062A441 /* ImageMasking.c */,
+				2DC32CF60806F3D70062A441 /* ImageMasking.h */,
+				2DC32CF70806F3D70062A441 /* Images.c */,
+				2DC32CF80806F3D70062A441 /* Images.h */,
+				2DC32CF90806F3D70062A441 /* PathDrawing.c */,
+				2DC32CFA0806F3D70062A441 /* PathDrawing.h */,
+				2DC32CFB0806F3D70062A441 /* PatternDrawing.c */,
+				2DC32CFC0806F3D70062A441 /* PatternDrawing.h */,
+				2DC32CFD0806F3D70062A441 /* PDFHandling.c */,
+				2DC32CFE0806F3D70062A441 /* PDFHandling.h */,
+				2DC32CFF0806F3D70062A441 /* QuartzTextDrawing.c */,
+				2DC32D000806F3D70062A441 /* QuartzTextDrawing.h */,
+				2DC32D010806F3D70062A441 /* Shadings.c */,
+				2DC32D020806F3D70062A441 /* Shadings.h */,
+				2DC32D030806F3D70062A441 /* ShadowsAndTransparencyLayers.c */,
+				2DC32D040806F3D70062A441 /* ShadowsAndTransparencyLayers.h */,
+				2DC32D050806F3D70062A441 /* Utilities.c */,
+				2DC32D060806F3D70062A441 /* Utilities.h */,
+			);
+			name = CommonCode;
+			path = ../CommonCode;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* BasicDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4F4E6108E0C842002C8F59 /* Build configuration list for PBXNativeTarget "BasicDrawing" */;
+			buildPhases = (
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicDrawing;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BasicDrawing;
+			productReference = 8D0C4E970486CD37000505A6 /* BasicDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2D4F4E6508E0C842002C8F59 /* Build configuration list for PBXProject "BasicDrawing.carbon" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* BasicDrawing */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0C4E890486CD37000505A6 /* BasicDrawing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E8D0486CD37000505A6 /* InfoPlist.strings in Resources */,
+				8D0C4E8E0486CD37000505A6 /* main.nib in Resources */,
+				2DF0A6E506F216530081C51B /* Localizable.strings in Resources */,
+				2DC32CCD0806F36F0062A441 /* 400x259x8.bw.raw in Resources */,
+				2DC32CCE0806F36F0062A441 /* image-400x300x24.raw in Resources */,
+				2DC32CD00806F36F0062A441 /* Kitty.pdf in Resources */,
+				2DC32CD10806F36F0062A441 /* LyingOnDeckNoProfile.JPG in Resources */,
+				2DC32CD30806F36F0062A441 /* otherimage-400x300x24.raw in Resources */,
+				2DC32CD40806F36F0062A441 /* Poot.jpg in Resources */,
+				2DC32CD50806F36F0062A441 /* ptlobos.tif in Resources */,
+				2D2C9F9E081EBA8F0011DB3E /* blendmode.pdf in Resources */,
+				2D1CB7C008CE515B00BAE1AD /* imageturkey.eps in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0C4E900486CD37000505A6 /* UIHandling.c in Sources */,
+				2D66F44406F101480059510A /* FrameworkUtilities.c in Sources */,
+				2D66F44806F101480059510A /* NavServicesHandling.c in Sources */,
+				2D90781B06F11754002BEABF /* DoPrinting.c in Sources */,
+				2D64895A07130999008AA774 /* FrameworkTextDrawing.c in Sources */,
+				2DC32D070806F3D70062A441 /* BitmapContext.c in Sources */,
+				2DC32D080806F3D70062A441 /* ColorAndGState.c in Sources */,
+				2DC32D090806F3D70062A441 /* CoordinateSystem.c in Sources */,
+				2DC32D0A0806F3D70062A441 /* DataProvidersAndConsumers.c in Sources */,
+				2DC32D0B0806F3D70062A441 /* DrawingBasics.c in Sources */,
+				2DC32D0C0806F3D70062A441 /* EPSPrinting.c in Sources */,
+				2DC32D0D0806F3D70062A441 /* ImageMasking.c in Sources */,
+				2DC32D0E0806F3D70062A441 /* Images.c in Sources */,
+				2DC32D0F0806F3D70062A441 /* PathDrawing.c in Sources */,
+				2DC32D100806F3D70062A441 /* PatternDrawing.c in Sources */,
+				2DC32D110806F3D70062A441 /* PDFHandling.c in Sources */,
+				2DC32D120806F3D70062A441 /* QuartzTextDrawing.c in Sources */,
+				2DC32D130806F3D70062A441 /* Shadings.c in Sources */,
+				2DC32D140806F3D70062A441 /* ShadowsAndTransparencyLayers.c in Sources */,
+				2DC32D150806F3D70062A441 /* Utilities.c in Sources */,
+				2DC32D360806FDFC0062A441 /* AppDrawing.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02345980000FD03B11CA0E72 /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1870340FFE93FCAF11CA0CD7 /* English */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DF0A6E306F216530081C51B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF0A6E406F216530081C51B /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D4F4E6208E0C842002C8F59 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicDrawing_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = BasicDrawing;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2D4F4E6308E0C842002C8F59 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicDrawing_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				PREBINDING = YES;
+				PRODUCT_NAME = BasicDrawing;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2D4F4E6408E0C842002C8F59 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BasicDrawing_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = BasicDrawing;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		2D4F4E6608E0C842002C8F59 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2D4F4E6708E0C842002C8F59 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2D4F4E6808E0C842002C8F59 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D4F4E6108E0C842002C8F59 /* Build configuration list for PBXNativeTarget "BasicDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4F4E6208E0C842002C8F59 /* Development */,
+				2D4F4E6308E0C842002C8F59 /* Deployment */,
+				2D4F4E6408E0C842002C8F59 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2D4F4E6508E0C842002C8F59 /* Build configuration list for PBXProject "BasicDrawing.carbon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4F4E6608E0C842002C8F59 /* Development */,
+				2D4F4E6708E0C842002C8F59 /* Deployment */,
+				2D4F4E6808E0C842002C8F59 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}
