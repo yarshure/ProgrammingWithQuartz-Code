@@ -264,7 +264,8 @@ CGColorSpaceRef colorSpaceFromPDFArray(CGPDFArrayRef colorSpaceArray){
 					if (!CGPDFDictionaryGetArray(dict, "Range", &rangeArray)) {
 						int i = 0;
 						for (; i < numberOfComponents * 2; i += 2) {
-							range[i] = (i % 2 == 0) ? 0.0 : 1.0;
+							range[i] = 0.0;
+							range[i+1] = 1.0;
 						}
 					} else {
 						size_t count = CGPDFArrayGetCount(rangeArray);
